@@ -17,15 +17,15 @@
 
       <div id="slider">
 	
-	<img id="1" src="images/dude.jpg">
-	<img id="2" src="images/cat1.jpg">
-	<img id="3" src="images/cat2.jpg">
-	<img id="4" src="images/yoda.jpg">
+	<img id="1" src="images/dude.jpg" onmouseover="stopLoop(); return false;" onmouseout="startSlider(); return false;">
+	<img id="2" src="images/cat1.jpg" onmouseover="stopLoop(); return false;" onmouseout="startSlider(); return false;">
+	<img id="3" src="images/cat2.jpg" onmouseover="stopLoop(); return false;" onmouseout="startSlider(); return false;">
+	<img id="4" src="images/yoda.jpg" onmouseover="stopLoop(); return false;" onmouseout="startSlider(); return false;">
 
       </div>
 
-      <a href="#" class="left">Previous</a>
-      <a href="#" class="right">Next</a>
+      <a href="#" class="left" onclick="prev(); return false;">Previous</a>
+      <a href="#" class="right" onclick="next(); return false;">Next</a>
 
     </div>
 
